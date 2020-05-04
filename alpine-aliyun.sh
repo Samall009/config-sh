@@ -1,2 +1,2 @@
-#!/usr/bin/env sh
+#!/usr/bin/sh
 sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
