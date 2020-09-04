@@ -1,0 +1,5 @@
+#!/bin/sh
+mkdir -p /root/.ssh
+chmod 600 /root/.ssh
+echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQ/X2ko1WZlIedFmMEPJH9ex0Em1P5P8rfopXHQSA4fe1QpNXeBXWiA+SrF0eKUPumbBdh7tewrFhqnT5Vzm5OaLnQvYdkxmIB4B7QbVDCZZls7rm08OZTDuWnCcHfWMK2lCQTvBPGQfF+w99Itdd33rREpOU4Pr9Oxb8C97ovHuRcPdeXU8CU+Qx5oMiFHdLtqL/VFtKSw0CBYDbUuBAaBx08RAYyvxyuzLweNZFw9Qs91qWSr33GswQMm+XIbeh8/SitO09JRti2oB5BDgnrqFgh71Z1AZ9M37zXo8cz+XL8qzLlqrycmvtVfJDil4cBS4bl3ZgEV0Z78rdlA2xj >> /root/.ssh/authorized_keys
+chmod 700 /root/.ssh/authorized_keys
